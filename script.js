@@ -2,7 +2,7 @@
    MENSAJE FINAL — edita únicamente este texto
    (no uses el carácter ` dentro del mensaje)
    ============================================================ */
-const MENSAJE_PERSONAL = `Hay personas que aparecen en nuestra historia y terminan convirtiéndose en parte de ella. Gracias por formar parte de mis días, por las conversaciones, las risas y los momentos que hacen especial nuestra amistad. Este pequeño proyecto es una forma distinta de decirte que valoro tenerte en mi vida.`;
+const MENSAJE_PERSONAL = ` Se que podra parecer poco, pero por la distancia y por lo bueno que soy haciendo estas cosas es lo mejor que puedo darte. Ya llevamos 2 meses siendo amigos y no sabes la gratitud que tengo por haberme soportado tanto tiempo, la verdad, nunca tuve un amigo asi, uno con el que pueda ser yo mismo y eso signifca mas que muchas palabras. Te deseo un feliz cumpleaños y que la pases de la mejor manera y como solia decirte anteriormente, te mando un gran "abrazo psicologico" desde los andes y que roblox sea aquel lugar donde guarde nuestras risas y nuestros divertidos momentos juntos (y con rotom xdd). Felices 17, Michelle. `;
 
 const intro = document.getElementById("intro");
 const puzzle = document.getElementById("puzzle");
