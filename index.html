@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b16">
+  <title>PROTOCOLO 001 | Archivo confidencial</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <main class="terminal">
+    <header class="topbar">
+      <span class="status"><i></i> SISTEMA ACTIVO</span>
+      <span>uwu</span>
+    </header>
+
+    <div class="symbol">⌁</div>
+
+    <p class="eyebrow">TRANSMISIÓN ENTRANTE // 001</p>
+    <h1 id="title">PROTOCOLO <span>001</span></h1>
+    <p class="subtitle" id="subtitle">
+      Se ha detectado una señal desconocida.
+    </p>
+
+    <div class="divider"></div>
+
+    <section id="intro" class="screen">
+      <p class="terminal-text">
+        > Estableciendo conexión...<br>
+        > Identidad del destinatario: CONFIDENCIAL<br>
+        > Se ha encontrado un archivo pendiente de apertura.
+      </p>
+
+      <p class="message">
+        Si has llegado hasta aquí, es porque alguien
+        ha preparado algo para ti (sepa quien sea).
+      </p>
+
+      <button id="startBtn">Aqui pasan cositas... ↗</button>
+    </section>
+
+    <section id="puzzle" class="screen hidden">
+      <p class="eyebrow">ARCHIVO 01 // PRIMER FILTRO</p>
+      <h2>La primera llave</h2>
+      <p id="question">
+        ¿Que llevaba en la espalda aquel dia que nos conocimos?
+      </p>
+
+      <form id="answerForm">
+        <label for="answer">INTRODUCE TU RESPUESTA</label>
+        <input
+          id="answer"
+          type="text"
+          placeholder="Escribe aquí..."
+          autocomplete="off"
+          required
+        >
+        <button type="submit">VERIFICAR CLAVE</button>
+      </form>
+
+      <p id="feedback" role="status" aria-live="polite"></p>
+    </section>
+
+  </main>
+
+  <section id="reveal" class="screen galaxy-scene hidden" aria-label="Escena final: una galaxia">
+    <canvas id="galaxyCanvas" aria-hidden="true"></canvas>
+    <p class="galaxy-hint" aria-hidden="true">Toca la galaxia (pasa algo bonito uwu)</p>
+    <div class="galaxy-content">
+      <p class="eyebrow">ACCESO CONCEDIDO // ARCHIVO DESBLOQUEADO</p>
+      <h2 class="galaxy-title">Waos, adivinaste 👀.</h2>
+      <p id="personalMessage" class="galaxy-message"></p>
+      <p class="signature">
+        FIN DE LA TRANSMISIÓN<br>
+        <span>— De un chico peruano.</span>
+      </p>
+      <button id="restartBtn" class="secondary">
+        VOLVER AL INICIO ↺
+      </button>
+    </div>
+  </section>
+</body>
+</html>
